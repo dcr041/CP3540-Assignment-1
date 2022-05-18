@@ -16,6 +16,7 @@ export function Movie({name, date, stars, poster, rating, onRemove = f => f}) {
     return (
         <>
             <div>
+                <br></br>
                 <img src={poster} alt={name}></img>
                 <h2><b>{name}</b></h2>
                 <h3>{date}</h3>

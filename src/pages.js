@@ -10,7 +10,6 @@ export function Home({movies, setMovies}) {
             <nav>
                 <Link to="/addReview">Add Review</Link>
             </nav>
-            <br></br>
             <MovieList
                 movies={movies}
                 onRemoveMovie = {

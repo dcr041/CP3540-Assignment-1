@@ -63,11 +63,11 @@ export function AddReviewForm({onNewMovie = f => f}) {
                         onChange = {evt => changePoster(evt.target.value)}
                         required
                     >
-                        <option value="">Poster 1</option>
-                        <option value="">Poster 2</option>
-                        <option value="">Poster 3</option>
-                        <option value="">Poster 4</option>
-                        <option value="">Poster 5</option>
+                        <option value="images/joker.jpg">Poster 1</option>
+                        <option value="images/batman_begins.jpg">Poster 2</option>
+                        <option value="images/the_dark_knight.jpg">Poster 3</option>
+                        <option value="images/the_dark_knight_rises.jpg">Poster 4</option>
+                        <option value="images/warrior.jpg">Poster 5</option>
                     </select>
                 </div>
                 <div>

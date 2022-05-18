@@ -1,5 +1,12 @@
 [
     {
+        "name": "Joker",
+        "date": 2019,
+        "stars": ["Joaquin Phoenix", "Robert De Niro", "Zazie Beetz"],
+        "poster": "images/joker.jpg",
+        "rating": 4
+    },
+    {
         "name": "Batman Begins",
         "date": 2005,
         "stars": ["Christian Bale", "Michael Caine", "Ken Watanabe"],
